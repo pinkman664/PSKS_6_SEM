@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.6.1">
+  <diagram name="Страница-1" id="R0cjC1w2PBCOp9fjVQWc">
+    <mxGraphModel dx="2365" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-1" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Client Machine (Windows)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="210" width="300" x="-50" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-2" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Browser&lt;/font&gt;" vertex="1">
+          <mxGeometry height="145" width="220" x="-8" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-3" parent="1" style="shape=module;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Angular 20&lt;/font&gt;&lt;div&gt;&lt;font&gt;TypeScript 5.7&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="15" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-4" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Docker&lt;/font&gt;" vertex="1">
+          <mxGeometry height="640" width="1040" x="430" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-5" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Docker Compose Stack&lt;/font&gt;" vertex="1">
+          <mxGeometry height="590" width="970" x="460" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-6" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;NGINX Container&lt;/font&gt;" vertex="1">
+          <mxGeometry height="250" width="330" x="510" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-7" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;NGINX Server&lt;/font&gt;" vertex="1">
+          <mxGeometry height="185" width="255" x="547" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-8" parent="1" style="shape=module;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="&lt;div&gt;&lt;font&gt;Reverse Proxy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Static Angular Files&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;SSL Termination&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="569" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-9" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Backend Container&lt;/font&gt;" vertex="1">
+          <mxGeometry height="250" width="350" x="991" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-10" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Backend Server&lt;/font&gt;" vertex="1">
+          <mxGeometry height="185" width="279" x="1030" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-11" parent="1" style="shape=module;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="&lt;div&gt;&lt;font&gt;Node.js 22.x&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;TypeScript 5.7&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Express 5.1.0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;yt-dlp&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89" width="230" x="1043" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-12" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Database Container&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="330" x="510" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;PostgreSQL 16&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="220" x="562" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-14" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Redis Container&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="330" x="993" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-15" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;Redis 7&lt;/font&gt;&lt;div&gt;&lt;font&gt;Search Cache&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;CDN URL Cache&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="220" x="1048" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-16" edge="1" parent="1" source="17mRdr_MYPmzNnjNoWNQ-2" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.445;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=97.5;entryDy=255;entryPerimeter=0;fontFamily=Times New Roman;fontSize=14;" target="17mRdr_MYPmzNnjNoWNQ-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="290" y="316.2600000000001" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-17" connectable="0" parent="17mRdr_MYPmzNnjNoWNQ-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=none;fontFamily=Times New Roman;fontSize=14;" value="HTTPS" vertex="1">
+          <mxGeometry relative="1" x="-0.5" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-18" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.498;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=14;" target="17mRdr_MYPmzNnjNoWNQ-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="912" y="264" />
+            </Array>
+            <mxPoint x="802" y="264.5094339622641" as="sourcePoint" />
+            <mxPoint x="1020" y="269.4905660377359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-19" connectable="0" parent="17mRdr_MYPmzNnjNoWNQ-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=none;fontFamily=Times New Roman;fontSize=14;" value="HTTP" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-20" edge="1" parent="1" source="17mRdr_MYPmzNnjNoWNQ-11" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=14;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1101" y="400" />
+              <mxPoint x="950" y="400" />
+              <mxPoint x="950" y="542" />
+            </Array>
+            <mxPoint x="1069.4499999999998" y="314.89" as="sourcePoint" />
+            <mxPoint x="782" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-21" connectable="0" parent="17mRdr_MYPmzNnjNoWNQ-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=none;fontFamily=Times New Roman;fontSize=14;" value="TCP/IP" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-22" edge="1" parent="1" source="17mRdr_MYPmzNnjNoWNQ-11" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=14;" target="17mRdr_MYPmzNnjNoWNQ-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1680" y="260" as="sourcePoint" />
+            <mxPoint x="1660" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17mRdr_MYPmzNnjNoWNQ-23" connectable="0" parent="17mRdr_MYPmzNnjNoWNQ-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=none;fontFamily=Times New Roman;fontSize=14;" value="TCP/IP" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
